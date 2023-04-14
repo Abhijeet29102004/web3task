@@ -1,6 +1,4 @@
-14/04/2023, 17:37 Untitled. txt
-
-Untitled.txt
+﻿
 
 import java.lang.Math;
 
@@ -10,23 +8,23 @@ public static void main(String[] args) {
 
 car a = new car("hyunday”, "hkm", 2001, 4, 5, 56);
 car b = new car("hyuy", "hk", 1999, 4, 5, 81);
-.accelerate(54);
+a.accelerate(54);a
+
+.move();a
+
+.move();a
 
 .move();
 
-.move();
+a.move();a
 
 .move();
 
-.move();
+a.move();
 
-.move();
+a.move();
 
-.move();
-
-.move();
-
-.move();
+a.move();
 
 double c = a.time_to_collision(b);
 System.out.printf("%.2f\n", c);
@@ -35,7 +33,7 @@ System.out.printf("%.2f\n", c);
 
 }
 
-CoCo LVL OLD XV
+
 
 class car {
 String make;
@@ -73,9 +71,7 @@ speed -= b;
 
 public void move() {
 double angle = Math.atan2(y, x);
-Xx += (speed * Math.cos(angle));
-about:blank 1/2
-14/04/2023, 17:37 Untitled. txt
+x += (speed * Math.cos(angle));
 y += (speed * Math.sin(angle));
 
 }
